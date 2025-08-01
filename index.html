@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Infinity Birthday Quiz 💖</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✨ My Infinity Quiz for my God jiii ✨</h1>
+    <div id="question-area">
+      <!-- Question will appear here -->
+    </div>
+    <div id="input-area">
+      <input type="text" id="answer-input" placeholder="Type your answer..." autocomplete="off"/>
+      <button id="submit-btn">Submit</button>
+    </div>
+    <div id="feedback"></div>
+    <div id="reveal-area"></div>
+    <div id="next-btn-wrapper" style="display:none;">
+      <button id="next-btn">Next Question</button>
+    </div>
+    <div id="final-message" style="display:none;"></div>
+  </div>
+
+  <!-- confetti canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <audio id="congrats-audio" src="media/congrats.mp3" preload="auto"></audio>
+  <audio id="wait-audio" src="media/wait3s.mp3" preload="auto"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
